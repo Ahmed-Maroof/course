@@ -1,0 +1,1699 @@
+Module 1 : vid 1 
+
+Cloud computing, also referred to as “the cloud” 
+
+is the delivery of on-demand computing
+resources—everything from applications to data centers—over the internet on a pay-for-use basis.
+-------------------------------------------------
+the US National Instituteof Standards and Technology (NIST’s) definition of cloud computing : 
+
+cloud computing as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources 
+that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+-------------------------------------------------
+
+This cloud five essential characteristics, 
+
+1- On-demand Self-service:
+means that you get access to cloud resources such as the processing power, storage, and network you need, 
+using a simple interface,without requiring human interaction with each service provider.
+
+2- Broad Network Access:
+means that cloud computing resources can be
+accessed via the network through standard mechanisms and platforms such as mobile phones,
+tablets, laptops, and workstations.
+
+3- Resource Pooling:
+is what gives cloud providers economies of
+scale, which they pass on to their customers, making cloud cost-efficient.
+Using a multi-tenant model, computing resources are pooled to serve multiple consumers; cloud
+resources are dynamically assigned and reassigned, according to demand, without customers needing
+to concern themselves with the physical location of these resources.
+
+4- Rapid Elasticity :
+implies that you can access more resources
+when you need them, and scale back when you don’t—because resources are elastically
+provisioned and released.
+
+5- Measured Service:
+means that you only pay for what you use or
+reserve as you go; if you’re not using resources, you’re not paying.
+Resource usage is monitored, measured, and reported transparently based on utilization.
+
+--------------------------------------------------------
+
+cloud deployment models: 
+
+1- Public cloud : is when you leverage cloud services over the open internet on hardware owned by
+the cloud provider, but its usage is shared by other companies.
+
+2- Private cloud : means that the cloud infrastructure is provisioned for exclusive use by a single
+organization.It could run on-premises or it could be owned, managed, and operated by a service provider.
+
+3- Hybrid model: And when you use a mix of both public and private clouds, working together seamlessly,
+
+--------------------------------------------------------
+cloud service models :  Infra - platform - application 
+
+
+
+1- IAAS "Infrastructure as a Service model", you get access to infrastructure and physical computing resources 
+such as servers, networking, storage, and data center space without the need to manage or operate them.
+
+2- PAAS a Platform as a Service model, you get access to the platform, that is the hardwareand software tools,
+ usually those needed to develop and deploy applications to users over the Internet.
+
+3- SAAS Software as a Service is a software licensing and delivery model in which software and applications
+are centrally hosted and licensed on a subscription basis, and sometimes also referred to as 
+"on-demand software."
+
+----------------------------------------------------------------------------------------------------------------------
+Module 1 : vid 2 
+
+Cloud computing is an evolution of technology over time.
+
+1950s :  when large-scale mainframes with high-volume processing power became available
+In order to make efficient use of the computing power of mainframes, 
+the practice of time sharing, or resource pooling, evolved Using dumb terminals
+
+1970s: , with the release of an operating system called Virtual Machine or VM,
+ it became possible for mainframes to have multiple virtual systems, 
+ or virtual machines, on a single physical node.
+
+Each virtual machine hosted guest operating systems that behaved as though they had their own memory, CPU, and hard drives, even though 
+these were shared resources. 
+
+-----------------------------------------------------
+
+servers were virtualized into shared hosting environments
+- virtual private servers, and
+- virtual dedicated servers, 
+using the same types of functionality provided by the virtual machine operating system.
+
+so, for example, if a company needed ‘x’ number of physical systems to run their applications,
+they could take one physical node and split it into multiple virtual systems.
+This was enabled by hypervisors.
+
+-----------------------------------------------------
+
+-hypervisor : 
+
+is a small software layer that enables multiple operating systems to run alongside each other,
+sharing the same physical computing resources. A hypervisor also separates the Virtual Machines logically, 
+assigning each its own slice of the underlying computing power, memory, and storage,
+ preventing the virtual machines from interfering with each other.
+
+------------------------------------------------------
+As technologies and hypervisors improved and were able to share and deliver resources reliably,
+بعض الشركات استغلت الوضع وبدأت تقسم في المبود بتاعها عشان تأجره
+
+
+Users could now order cloud resources they needed from a larger pool of available resources
+and they could pay for them on a per-use basis, also known as Pay-As-You-Go.
+------------------------------------------------------
+
+- pay-as-you-go :
+
+1- utility computing model, became one of the key drivers behind cloud computing taking off,
+
+2- The pay-per-use model allowed companies and even individual developers to pay for the computing resources as and when they used them,
+
+3- This allowed them to switch to a more cash-flow friendly OpEx model from a CapEx model.
+
+4- This model appealed to all sizes of companies, those who had little or no hardware, and even those that had lots of hardware, 
+  because now, instead of making huge capital expendituresin hardware, they could pay for compute resources as and when needed.
+
+5- It also allowed them to scale their workloads during usage peaks, and scale down when usagesubsided.
+
+
+And this gave rise to modern-day cloud computing.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Module 1 : vid 3
+
+cloud adoption strategy 
+
+"Agility, flexibility, and competitiveness" 
+are key drivers for moving to the cloud, provided it is done without creating business disruption or issues related to security,
+ compliance and performance.
+-----------------------------------------------
+
+considerations : اللي الشركات محتاجاها وهي بتتحول للكلود
+
+1- infrastructure and workloads.
+
+The cost of building and operating data centers can become astronomical.
+On the other hand, low initial costs and pay-as-you-go attributes of cloud computing can add up to
+significant cost savings.
+
+
+2- SaaS and development platforms 
+
+not all workloads may be ready for the cloud, as isSaaS and development platforms cloud be best fit for them .
+Organizations need to consider if paying for application access is a more viable option than purchasing off-the-shelf software 
+and subsequently investing in upgrades.
+
+
+3- speed and productivity, what it means for them
+to get a new application up and running in ‘x’ hours on the cloud versus a couple of weeks, even months on traditional platforms.
+And the person-hour cost efficiencies they gain from using cloud dashboards, real-time statistics, and active analytics.
+
+
+4- impact of making a wrong decision, 
+their risk exposure. Is it riskier, for example, for them to invest in the hardware and software or rent by the hour?
+Is it safer for them to work on a 12-month plan to build, write, test, and release the code if they’re uncertain about adoption?
+And is it better for them to “try” something new paying-as-you-go rather than making long-term decisions based on little or no trial or adoption?
+
+-----------------------------------------------------------------
+
+
+benefits of cloud adoption: 
+
+categorized broadly into Flexibility, Efficiency, and Strategic Value.
+
+1-flexibility.
+
+- Users can scale back or scale up services to fit their needs, customize applications, and access cloud services 
+  from anywhere with an internet connection.
+
+- Cloud infrastructure scales on demand to support fluctuating workloads.
+- Organizations can determine their level of control with as-a-service options.
+- Users can select from a menu of pre-built tools and features to build a solution that fits their specific needs.
+- Virtual Private Clouds, encryption, and API keys help keep data secure.
+
+
+2- efficiency.
+
+- Enterprise users can get applications to market quickly without worrying about underlying infrastructure costs or its maintenance.
+- Cloud-based applications and data are accessible from virtually any internet-connected device.
+- Hardware failures do not result in data loss because of networked backups.
+- Cloud computing uses remote resources, saving organizations the cost of servers and other equipment, and paying on use-basis.
+- Cloud services give enterprises a competitive advantage by providing the most innovative
+   technologies available while managing the underlying infrastructure, thus enabling organizations to focus on their priorities.
+
+------------------------------------------------------------
+ cloud challenges: 
+
+1- Data security, associated with loss or unavailability of data causing business disruption
+2- Governance and sovereignty issues
+3- Legal, regulatory, and compliance issues
+4- Lack of standardization in how the constantly evolving technologies integrate and interoperate;
+5- Choosing the right deployment and service models to serve specific needs;
+6- Partnering with the right cloud service providers;
+7- Concerns related to business continuity and disaster recovery.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Module 1 : vid 4 Key Cloud Service Providers and Their Services (6:32)
+
+- numbers and predictions that help us see the scale cloud is predicted
+
+    1- public cloud service market
+    from $182.4 B in 2018 to $331.2 B in 2022 - (CAGR) of 12.6%.
+
+    2- IAAS 
+    increase from $30.5 B in 2018 to $76.6 B in 2022, growing 27.5% in a year.
+
+    3- PAAS 
+    spending to grow from $15.6 B in 2018 to $31.8B 2022, growing 21.8% in a year.
+
+    4- SAAS 
+    from $80 B in 2018 to $143.7 B in 2022.
+
+---------------------------------
+- major Cloud Service Providers in alphabetical order.
+
+1-Alibaba Cloud "Aliyun" [ largest Chinese cloud computing service provider] :
+
+    - provides a comprehensive suite of global cloud computing services to power not just their customers’ online businesses 
+        but also the Alibaba Group’s own e-commerce ecosystem.
+
+    - It offers a host of products and services such as compute, network, storage, security,
+        monitoring and managing, communication, analytics, IoT, application development, data migration,
+        web hosting, and more.
+
+2- AWS Cloud :
+
+    - offers an extensive range of Infrastructure and Platform services to individuals, companies,
+         and governments on a metered pay-as-you-go basis.
+
+    - wide range of products, services, and solutions ranging from Compute, DevOps, Data, Analytics, IoT, Machine Learning, Networking, Content Delivery,
+        Robotics, Serverless Computing, and much more.
+
+3-Google Cloud Platform "GCP" :
+    -is a suite of cloud computing services, providing Infrastructure, Platform, and Serverless Computing environments.
+    
+    -Google also uses GCP internally for their end-user products such as Google Search and YouTube.
+    
+    -Google Cloud includes G Suite with products for communication, productivity, collaboration, storage, and more.
+
+    -The Google App Engine is a platform for developing and hosting web applications in Google-managed data centers, 
+        automatically allocating and de-allocating resources to handle demand.
+
+
+4- IBM cloud "full stack cloud platform" :
+
+ - that spans public, private, and hybrid environments with products and services covering 
+ compute, network, storage, management, security, DevOps, and databases.
+
+- Some of their prominent offerings include their Bare Metal Servers, VMWare, Cloud Paks for Application Modernization, 
+    Virtual Private Cloud, and the suite of emerging technologies such as AI, IoT, Blockchain, Data and Analytics.
+
+- leading hybrid cloud provider of our times AFTER acquisition of Red Hat
+
+
+5- Microsoft Azure :
+
+    -is a flexible cloud platform for building, testing, deploying, and managing applications and services 
+        through Microsoft-managed data centers. 
+    
+    -With its data centers spread out in many regions, Azure provides a global reach with a local presence.
+
+    - It provides Software, Platform, and Infrastructure services supporting Microsoft-specific and third-party languages, tools, and frameworks.
+
+
+6- Oracle Cloud is "DBAS"
+
+    - primarily known for Software as a Service and Database as a Service (also known as the Oracle Data Cloud).
+    
+    -Oracle’s SaaS offering includes wide-ranging applications such as ERP, SCM, HCM, Marketing,Sales, and CX running in the cloud.
+
+    - provides one of the largest cloud-based data management platforms helping customers personalize their online, offline,
+     and mobile marketing campaigns, for targeted audiences.
+
+    - also provides some cloud Infrastructure and Platform services.
+
+
+7-Salesforce "CRM" 
+    -specializes in their Software as a Service offering that focuses on customer relationship management, 
+        supporting businesses to better connect with their customers, partners,and potential customers.
+ 
+    - Salesforce offers multiple cloud services such as Sales Cloud, Service Cloud, and Marketing Cloud, helping customers track analytics in real-time,
+        customer success and support, customer complaints, even listening in to customers across social platforms to automatically route
+        them to appropriate agents for resolution.
+
+
+8-SAP 
+
+    - is known for Enterprise software and applications such as ERP, CRM, HR, and Finance, running in the cloud.
+    
+    - There is also an SAP Cloud Platform for building and extending business applications with rapid innovation cycles 
+        in a secure cloud computing environment managed by SAP.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------        
+Module 2 - Cloud Adoption and Emerging Technologies 
+
+vid 1 Video: Cloud Adoption - No Longer a Choice (3:24)
+
+- cloud makes it possible for businesses to experiment, fail, and learn much faster than ever before, with low risk exposure.
+- Businesses today have greater freedom to change course than to live with the consequences of expensive decisions taken in the past.
+
+- IBM Institute for Business Value study: 
+    - more than three-quarters of enterprises today are using cloud computing to expand into new industries.
+    - 74% have adopted cloud to improve customer experience
+    - 71% use cloud to create enhanced products and services—while simultaneously downsizing legacy systems and reducing costs.
+    
+To remain competitive,
+1- businesses need to be able to respond quickly to marketplacechanges
+2- use analytics to understand customer experience, and apply that understanding to adapt their products and services based on what they learn.
+
+Adoption to hybrid cloud key factor of success : 
+
+1-The power 
+2-scalability
+3-flexibility 
+4- pay-as-you-go economics of cloud provides the foundation for this transformation.
+
+
+- The International Data Corporation "IDC"
+    - predicts that by 2025, the total amount of digital data created worldwide will rise to 163 zettabytes 
+        (where one zettabyte is equivalent to a trilliongigabytes).
+
+    - 30% of this data will be real-time information.
+
+- Considering the unprecedented amounts of data being produced daily, and the ability to make
+    data-driven decisions crucial to any business,
+
+-cloud computing becomes essential for businesses to succeed, sustain, and compete in today’s markets.
+    A cloud strategy, more than just an IT strategy, is the core component of any business strategy today.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+module 2 : vid 2 Cloud Adoption - Some Case Studies (5:30)
+
+
+1-American Airlines "BETTER CUSTOMER SERVICE":
+  - In the highly competitive airline industry, customer experience is a major point of differentiation, and digital channels are increasingly important.
+    To become more responsive to customer needs.
+
+  -American Airlines needed a new technology platform and a new approach to development that would help it deliver digital self-service
+    tools and customer value more rapidly across its enterprise.
+
+The results: 
+1- Faster development and release of new apps.
+2- Improved operational reliability, productivity, and end customer response times.
+3- Cost savings by avoiding existing upgrade costs via migration to the IBM Cloud.
+-------------------------------------------------------
+
+2-UBank "REMOVING BARRIERS TO INNOVATION" PAAS
+ - As a lean organization with a self-imposed limit on headcount, UBank excels at finding innovative ways to meet demands.
+
+ - Continually challenged to find more efficient ways to operate, UBank’s IT team explored a Platform as a Service (PaaS) cloud development model.
+ - Their need
+    1- more control to their developers
+    2- reduce the need for additional resources
+    3- faster speed to market
+    4- and removing barriers in going from an idea to production.
+
+ -UBank launched new initiatives in an IBM Cloud Platform environment, including a virtual assistant  + IBM Watson technology 
+    to support the bank’s online home loan application.
+
+The results: 
+1- Faster time to market made possible through the Cloud Platform framework that streamlines development and empowers product teams.
+2- Foster greater innovation with cloud-based development resources that are quick, easy, and cost-effective to deploy.
+3- More efficient operations.
+
+-------------------------------------------------------
+3-Bitly "DEMAND FOR ENTERPRISE SCALE"
+
+ Since its inception in 2008, Bitly has journeyed from a startup to an enterprise product.
+    Seeking to support this transition 
+    1- an agile,
+    2- cost-effective IT infrastructure 
+    
+
+
+Their need 
+1- a cloud-based model with pay-as-you-go pricing. 
+2- the ability to scale up and scale down.
+3- a more global presence, and the ability to geodistribute into more POPs.
+4- they wanted it to be low-risk.
+
+The Action :
+Bitly migrated to an IBM Cloud environment, establishing a scalable hosting platform for low-latency delivery to enterprise customers around the world.
+
+The results: 
+
+1- 25 billion data-infused links migrated from one hosting site to Cloud infrastructure with data center locations worldwide.
+2- One billion user interaction data set stored and managed in a flexible, cost-effective Cloud Object Storage environment.
+3- Transformed IT operations to scale for growth, control costs and focus valuable resources on new product development.
+------------------------------------------------------------
+
+4-ActivTrades "ACCELERATING GROWTH"
+
+- Financial traders demand extreme speed and availability from trading systems.
+- Profitability depends on split-second decisions.
+- As a leading online broker in forex, commodities, equities, cryptocurrencies, indices, and other financial instruments,
+  ActivTrades enables investors to buy and sell on numerous financial markets.
+
+-Investors need reliable access to accurate market information, combined with the ability to move rapidly to execute trades.
+As its client base grew
+
+-ActivTrades wanted to 
+1- cut latency, 
+2- accelerate execution, 
+3- streamline the delivery of new functions.
+
+Action :
+ActivTrades migrated three major trading systems from on-premises infrastructure to IBM Cloud
+for VMware solutions, 
+    backed by data storage, 
+    networking, 
+    security offerings on the IBM Cloud.
+
+The results: 
+1- Up to 3X performance boost, helping clients seize fleeting opportunities for profit.
+2- Security-rich cloud platform with ultra-high availability protects client investments.
+3- Hours, not days to fire up new resources, for faster response to emerging requirements.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+module 2 : vid 3 Internet of Things in the Cloud (4:07)
+
+- IoT powered by cloud 
+    - is making a big difference for businesses today. 
+    -is a giant network of connected things and people that have changed much of how we live our daily lives ,
+     from the way we drive, to how we make purchases,monitoring our personal health, and even how we get energy for our homes.
+
+-Smart devices and sensors are continuously tracking and collecting data.
+
+For example,
+- smart building could have thousands of sensors measuring all kinds of data related to thermal, optical, structural, and environmental stimuli. 
+An unprecedented amount of data is being generated, putting a tremendous strain on the Internet.
+That is where the cloud comes in, by connecting the IoT device user to the cloud - 
+be it for 
+device registration,
+device identity,
+storing data, 
+accessing enterprise data. 
+
+- Data collected through IoT devices is stored and processed on the cloud 
+  since IoT devices can be in a state of motion.
+
+-the cloud serves as a collection point in closest proximity, minimizing the latency in reporting up the data points 
+and providing a response back to the IoT application.
+
+So, 
+from "IOT platforms" running entirely on the cloud 
+to the "interface" used by customers 
+to interact these devices, 
+to the backend analyticsplatforms 
+
+- cloud computing supports and enables IoT. Cloud service providers also offer 
+    "specialized IoT services" designed to help speed up the development of IoT solutions.
+    
+-case study
+    that demonstrates the use of the IoT on the cloud to combat the poaching of endangered rhinos at Welgevonden by making poaching predictable.
+
+    The rhinos have become one of the the key species that is becoming endangered due to poaching throughout Africa. 
+    But now especially in South Africa. Up until now, poachers have been increasing in numbers, 
+    and they become more militarized with weapons. And so of course we've had to do the same. 
+    This is not sustainable. The only way to do this better, is to bring in technology and things that they do not have.
+    This endangered species is getting help from some unexpected friends, the zebra and antelope. They're wearing IoT sensors
+    connected to the IBM cloud. When poachers enter the area, the animals run for it,
+    which alerts Rangers who can track their emotions and help stop them before any harm is done.
+
+    It's a smart way to help increase the Rhino population and turn the poachers into the endangered species. 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2 : vid 3 Artificial Intelligence on the Cloud (3:35)
+
+- AI : Making sense of the endless streams of data 
+-Many of the applications where we apply AI today simply wouldn't have been possible without the scalable, on-demand computing offered by the cloud.
+
+- There is a three-way relationship between AI +  IoT, + Cloud.
+    - AI consumes the data produced by IoT devices
+    - the IoT devices’ behavior can be dictated based on responses from AI.
+
+For example,
+Smart Assistants: 
+    a common type of IoT device, continues to learn about the user’s preferences as usage grows,
+    such as 
+     - the songs they like, 
+     - their home temperature settings,
+     - preferred meal times,
+     - and over time they anticipate their actions based on the user’s past history.
+
+
+ - symbiotic علاقه تكافليه relationship between IoT, AI, and Cloud.
+    - IoT delivers the data, 
+    - AI powers the insights,
+    - and both these emerging technologies leverage cloud’s scalability 
+        and processing power to provide value to individuals and businesses alike.
+
+- Case study:   
+     United States Tennis Association, USTA "using AI on the Cloud"
+
+    - to deliver unique digital experiences to millions of fans around the world.
+    - IBM integrates and analyzes the data flowing from the court.
+        And delivers unique digital experiences to more than ten million tennis fans around the world.
+        And we do it all in the IBM Cloud.
+
+    - The IBM Cloud is the digital foundation of the US Open.
+        1- It scales rapidly to meet a five thousand percent increase in web traffic.
+        2- And it delivers a consistant experience to our fans all around the globe.
+        3- And with Watson on the IBM Cloud, we can engage fans in unique ways, year after year.
+
+    "Slam Tracker" :
+     - analyzes more than twenty-six million historical data points.
+     - It gives fans deep insight into featured matches, 
+     - and it can see the momentum of a match shifting in real time.
+     - AI Highlights uses Watson to process thousands of hours of US Open video.
+     - It can hear the cheers of the crowd.
+     - It can see a player celebrating.
+     - And it knows what makes a great tennis highlight.
+
+    "Watson" is analyzing match video,
+        1- so coaches can quickly find the footage they need to guide the development of their players.
+        2- And if you need to know where to park, 
+            find a good burger, 
+            or grab the latest US Open gear,
+---------------------------------------------------------------------------------------------------------------------------------------------
+Module 2 : vid 4 Blockchain and Analytics on the Cloud (5:35)
+
+Blockchain: 
+ - is a secure, distributed, open technology that can help 
+    speed up processes, 
+    lower costs, 
+    and build transparency and traceability in transactional applications.
+ 
+ - It is an "immutable Network" allowing members to view only those transactions that are relevant to them.
+    The more open, diverse, and distributed the network,
+    the stronger the trust and transparency in the data and transactions.
+  
+- 85% of businesses today rely on multiple clouds to meet their IT needs, And more than 70% using more than three.  
+    These businesses need to be able to move applications and data across multiple clouds easily and securely,
+    leading to the emerging demand to build and manage business applications such as blockchain for the multi cloud environment.
+    
+- Blockchain and AI, much like IoT and AI, powered by the cloud, زيهم زي العلاقه اللي فاتت 
+     also have a three-way relationship. Where
+    - blockchain technology provides the trusted, decentralized source of truth,
+    - AI powers the analytics and decision-making from the data collected,
+    - and cloud provides globally distributed, scalable, and cost-efficient computing resources
+        to support both the unprecedented amounts of data being collected and the processing power required to draw insights from this data.
+        
+-Blockchain serves to make AI more understandable 
+    by recording the data and variables that go into a decision made in an AI algorithm,
+    leading to greater trust and transparency in the conclusions and decisions made by these algorithms.
+    
+Case Study : 
+"blockchain on the cloud is helping farmers reduce waste at times"
+
+- recall by building traceability and transparency in the food supply chain.
+    - 60% of the nation's lettuce is grown in Salinas. When it comes down to how plants are looked at, I
+        really relate back to how humans are raised and nurtured.
+    - With Blockchain technology on the IBM cloud , we're able to track our product within seconds. 
+        - Giving the consumers instant
+        - access where the product came from,
+        - in case there's any recall so we don't have to take all the food off the shelves.
+        - reduce the waste. There's a lot of
+
+
+Analytics technologies : 
+
+ - leverage  تقوي the flexibility, scalability, and computing resources available on the cloud. 
+    - From tracking trends on social media 
+    - to predict future events, 
+    - to analyzing data to build machine learning models that can be deployed in cognitive applications,
+     
+ cloud provides the integrated environment that is required to leverage data for continuous improvement and 
+    accelerated business growth. 
+
+
+- Case Study: 
+  - "KONE" :   بتوع المصاعد اللي بيجمعوا داتا
+        invested in cloud and IoT technologies to power a data analytics and predictive maintenance solution for city infrastructure used 
+        by more than 1 billion people daily. 
+        
+ - At KONE we manufacture elevators, escalators, auto walks, and doors All of these devices are streams of data that we are collecting.
+    In order to process those streams, we need a scalable way of handling the amount of data that is coming in.
+     And that's where cloud function fits in perfectly.
+
+- They handle that data with event-driven architecture. 
+    - We use functions to persist that data, 
+        and to generate further events on that data, 
+        that are then utilized and consumed by applications - customers - users.
+
+ In our analytics platform, 
+ - we analyzed the set of data 
+ - and we generate value predictive in a sense that we can predict the failure rate to a certain percentage that is 
+    about to happen in the future for our equipment
+     And this allows us to perform predictive maintenance. 
+    
+    And this is kind of the whole concept that we have behind our 24/7 connected services,
+    which is a promise to our customers. That the equipment is connected to the cloud and we are monitoring it. 
+    And that's where we generate the real a value for our customers. At the moment we use almost all aspects of the IBM cloud.
+    - We use storage from the cloud.
+    - We use cloud function.
+    - We use messaging services. 
+    -We use IoT services. 
+-------------------------------------------------------------------------------------------------------------------------------------------   
+Module 3 - Cloud Computing Service and Deployment Models 
+Module 3 - vid 1 Overview of Service Models (4:18)
+
+
+IaaS : 
+  - is a set of compute networking and storage resources that have been virtualized by a vendor so that 
+    a user can access and configure them any way they want. 
+
+IaaS personas :
+    - is a system admin, or an IT admin.
+    
+
+SaaS :  
+ - software that you don't have to install on your machine and you don't have to manually update.
+    And so the user for Software as a Service could be anyone. In fact, if you're
+    watching this on YouTube right now, then you're a user of Software as a Service.
+
+ - It's usually charged on a subscription model rather than a one-time license fee.
+
+
+PaaS : 
+ -takes advantage of all the virtualized resources from Iaas and then just abstracts them away,
+  so the user doesn't have to worry about managing any of those virtualized resources.
+ 
+ -"Persona" The user for PaaS is not a system admin, usually. It's usually a dev.
+
+
+- is meant to indicate that as you move down, you're increasing complexity in
+terms of your knowledge and management of infrastructure resources.
+- pyramid 
+    - SaaS
+    - PaaS
+    - IaaS
+
+- So let's see what it means in terms of cloud
+computing and its three service models with 
+
+- IaaS 
+    the cloud provider manages the physical resources, 
+                                        data centers, 
+                                        cooling 
+                                        power, 
+                                        Network 
+                                        and security, 
+                                        as well as computing resources that include servers and storage.
+
+
+ - PaaS 
+    the provider, in addition to the computing resources, 
+                 also manages the platform infrastructure which includes 
+                                            the operating systems, 
+                                            development tools, 
+                                            databases, 
+                                            and business analytics. 
+                                            
+ SaaS 
+ 
+  - in addition to the infrastructure and the platform resources, the provider 
+    also hosts 
+    and manages 
+    the applications 
+    and data.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3 VID 2 IaaS - Infrastructure as a Service (4:18) 
+
+
+- Infrastructure-as-a-Service “IaaS” 
+     is a form of cloud computing that delivers 
+                                        fundamental compute,
+                                        network, 
+                                        and storage resources 
+    to consumers 
+                on-demand, 
+                over the internet, 
+                on a pay-as-you-go basis.
+
+- The cloud provider hosts the infrastructure components "traditionally present in an on-premises data center" 
+                          as well as the virtualization or hypervisor layer.
+
+- In an IaaS Cloud environment, 
+    1- customers can create or provision virtual machines (or VMs)
+        in their choice of Region and Zone available from the Cloud Provider.
+
+    2- These VMs typically come pre-installed the customer’s choice of operating system.
+
+    3- The customers can then deploy middleware, install applications, and run workloads on these VMs.
+    
+    4- They can also and create storage for their workloads and backups.
+
+    5- Cloud providers often provide customers the ability to 
+        track and monitor the performance
+        and usage of their cloud services 
+        and manage disaster recovery.
+
+
+-key components of cloud infrastructure:
+
+    1-Physical data centers: IaaS providers manage large data centers that contain the physical
+                             machines required to power the various layers of abstraction on top of them.
+
+                            In most IaaS models, end users do not interact directly with the physical infrastructure
+                            but experience it as a service provided to them.
+
+    2-Compute: 
+        - providers manage the hypervisors 
+        - and end-users programmatically provision virtual instances 
+            with desired amounts of 
+            compute, 
+            memory, 
+            and storage resources.
+
+        - Cloud compute typically comes with supporting services 
+            like auto scaling 
+            and load balancing
+            that provide scalability and 
+                         high performance.
+
+    3-Network: 
+        Users get access to networking resources on the cloud through virtualization or programmatically through APIs.
+
+
+    4-Storage: 
+        There are three types of cloud data storage: 
+            object, 
+            file,
+            block storage.
+
+        - Object storage 
+                is the most common mode of storage in the cloud, given that it is highly distributed and resilient.
+
+
+- IaaS use cases.
+
+    1- Organizations today are using cloud infrastructure services 
+        to enable their teams 
+                            - to set up test and development environments faster,
+                            - helping create new applications more quickly.
+
+        By abstracting the low-level components, 
+        
+     - cloud infrastructure is helping developers focus more on business logic than infrastructure management.
+
+ 2- Business continuity and disaster recovery 
+        - require a significant amount of technology and staff investments.
+        - IaaS is helping organizations reduce this cost and make applications and data accessible
+         as usual during a disaster or outage.
+
+ 3- deploy their web applications faster and
+    - also scale infrastructure up and down as demand fluctuates.
+
+4- leveraging the high-performance computing capabilities of cloud infrastructure
+    to solve complex problems involving millions of variables and calculations, 
+        such as 
+            -climate and weather predictions and financial modeling.
+            -Mining massive data sets to locate valuable patterns,
+                - trends, 
+                - and associations requires a huge amount of processing power.
+
+ - Cloud infrastructure not only provides the required high-performance computing but also makes it economically viable.
+
+- While there are some concerns
+    -regarding the lack of transparency in the cloud infrastructure’s configuration 
+    - and management and dependency on a third-party for workload availability performance 
+    
+    
+-Infrastructure-as-a-Service is the fastest growing cloud model today.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3 VID 3 PaaS Platform as a Service (6:47)
+
+-“PaaS” :
+is a cloud computing model that provides customers a complete platform—hardware, software, and infrastructure to 
+develop,deploy, manage, and run applications created by them or acquired from a third-party.
+
+- The PaaS provider :
+    - hosts everything { servers, networks, storage, operating system, application runtimes, APIs, middleware, databases, and other tools—at their data center }.
+    - takes responsibility for the installation, 
+                                   configuration,
+                                   operation of the application infrastructure
+                                leaving the user responsible for only the application "code" and its "maintenance".
+
+- Customers:
+ pay for this service on a "usage basis" and purchase resources "on-demand".
+
+ - قارن بينها وبين اللي قبلها
+
+    - IaaS: 
+        the cloud provider offers access to "raw" computing resources, such as
+            servers, storage, and networking, 
+        while the user is responsible for the platform and application software.
+
+    - PaaS: 
+         the cloud service provider delivers and manages the entire platform infrastructure, abstracting users from the lower-level details of the environment.
+
+----------------------------------------------------------------------------------
+- essential characteristics of Platform-as-a-Service:
+
+PaaS clouds are distinguished تتميز by 
+
+1-the high level of abstraction they provide to the users:
+    - eliminating the complexity of deploying applications, 
+                                    configuring infrastructure, 
+                                    and provisioning, configuring supporting technologies like 
+                                                                                load balancers and databases.
+
+2- PaaS clouds provide "services and APIs" :
+    -that help simplify the job of developers in delivering elastically scalable and highly available cloud applications.
+    -  such as APIs for distributed caching, 
+                        queuing and messaging, 
+                        file and data storage, 
+                        workload management,
+                         user identity,
+                         and analytics,
+       
+    thus eliminating the need to integrate disparate components.
+
+
+3 The PaaS runtime :
+ 
+    - executes end-user code according to policies set by the "application owner" and "cloud provider".
+    - Many of the PaaS offerings provide developers with 
+        rapid deployment mechanisms, or “push and run” mechanism, for deploying and running applications.
+
+4 application infrastructure : (or middleware) capabilities,
+        such as application servers, 
+                database management systems, 
+                business analytics services, 
+                mobile back-end services,
+                integration services, 
+                business process management systems, 
+                rules engines,
+                complex event processing systems.
+
+Such an application infrastructure assists developers by reducing the amount of code that must be written while expanding the application’s functional capabilities.
+
+The most important use case : 
+ - strategic—build, test, deploy, enhance, and scale applications rapidly and cost-effectively.
+
+
+Let’s look at some more use cases for PaaS:
+
+ 1- API development and management:
+    Organizations are using PaaS to develop, run, manage, and secure APIs and microservices, 
+    which are loosely coupled, independently deployable components and services.
+
+ 2-Internet of Things, or IoT: 
+    PaaS clouds support a broad range of application environments, programming languages, and tools used for IoT deployments.
+
+3- Business analytics/intelligence: 
+    PaaS tools allow organizations to analyze their data to find business insights that enable more informed business decisions and predictions.
+
+4- Business Process Management, or BPM: 
+Organizations are using the PaaS cloud to access BPM platform delivered as a service. 
+
+5- Master data management, or MDM: 
+Organizations are leveraging the PaaS cloud to provide a single point of reference for critical business data such as information about customer transactions
+and analytical data to support decision making.
+-------------------------------------------------------------------------------------
+
+Advantages of using PaaS: 
+
+1- Scalability: 
+made possible because of the rapid allocation and deallocation of resources 
+    with a pay-as-you-use model offered by PaaS.
+
+
+2-The APIs: 
+ - support services, and middleware capabilities that PaaS clouds provide assist developers in focusing their efforts 
+    on application development and testing, resulting in faster time to market for their products and services.
+
+ - Middleware capabilities also reduce the amount of code that needs to be written while expanding
+    the application’s functional capabilities.
+
+3- Greater agility and innovation : 
+    -because using PaaS platforms means that you can experiment with multiple 
+     operating systems, languages, and tools without having to invest in these resources.
+
+    - You can evaluate and prototype ideas with very low risk exposure resulting in faster,
+            easier, less-risky adoption of a wider range of resources.
+-----------------------------------------------------------------------------------------
+
+The key PaaS offerings available : 
+1- AWS Elastic Beanstalk
+2- Cloud Foundry on IBM Cloud
+3- IBM Cloud Paks
+4- Windows Azure
+5- RedHat OpenShift
+6- Magento Commerce Cloud
+7- Force.com 
+8- Apache Stratos.
+
+--------------------------------------------
+PaaS clouds risks:
+ "عيوب الكلود العامه زي"  
+1- information security: threats and dependency on the service provider infrastructure.      
+2- ervice provider infrastructure experiences downtime: Services can get impacted. 
+3- user don't have direct control: over the changes that may take place when a provider makes changes in its strategy, service offerings, or tools.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3 Vid 4  SaaS - Software as a Service (4:47)
+
+- SaaS : 
+     is a cloud offering that provides users with access to a service provider cloud-based software.
+
+    - SaaS providers maintain 
+                            the servers, 
+                            databases, 
+                            and code that constitute an application.
+
+    - They also manage access to the application, including 
+                                    security, 
+                                    availability, 
+                                    performance.
+    - Applications reside on a remote cloud network, and users use these applications without having
+        to maintain and update the infrastructure.
+
+- ex: business processes supported by SaaS today 
+
+    1- email: and collaboration via offerings such as 
+            Microsoft's Office 365 and Google's Gmail.
+
+    2- CRM: Customer Relationship Management via services such as 
+        NetSuite CRM and Salesforce,
+
+    3- HCM: Human Resource Management via services from 
+        Workday and SAP SuccessFactors,
+
+    4- financial management: billing and collaboration, and many more.
+
+According to Forrester Research:
+
+ SaaS has overtaken on-premises solutions in categories such as 
+ human capital management (HCM),
+  customer relationship management (CRM), 
+  and collaboration.
+-----------------------------------------------------------------
+key characteristics of Software-as-a-Service: 
+
+1- multitenant architecture: 
+    - Infrastructure and code are maintained centrally and accessed by all users.
+    - SaaS makes it easy for users to manage privileges, 
+                                     monitor data use, 
+                                    ensure everyone sees the same information at the same time.
+
+2- Security: 
+    compliance, and maintenance are all part of the offering.
+
+   - Users can customize applications to fit their business processes with point-and-click ease.
+   - Users can customize the UI to work with their branding guidelines; 
+            - modify data fields
+            - enable or disable features within the business process.
+        These customizations are preserved through upgrades.
+
+
+3- subscription model : 
+    Users pay for the use of the services via a subscription model. 
+            The use of resources can be scaled easily, depending on service needs.
+
+---------------------------------------------------------------            
+Key benefits of adopting SaaS: 
+
+1- Businesses can directly procure solutions :
+        without upfront capital and assistance from IT, greatly reducing the time from decision to value from months to days.
+
+2- increases workforce productivity and efficiency:
+        - Users can access core business apps from wherever they
+        - they can also buy and deploy apps in minutes
+             reducing the typical obstacles enterprises have to to test the products they they might use.
+
+3- individuals and small enterprises can spread out their software costs over time:
+
+-----------------------------------------------------------
+
+use cases for SaaS: 
+
+1- educe on-premises IT infrastructure : Organizations are moving to SaaS for their core business needs
+ as part of their strategic transformation to reduce on-premises IT infrastructure 
+                                              reduce capital expenditure.
+
+2-  avoid the need for ongoing upgrades : Oragnzaitions are leveraging SaaS to 
+    avoid the need for ongoing upgrades, maintenance, and patching,
+         done traditionally by internal IT resources; applications run reliably with minimal input,
+    for example: email servers and office collaboration and productivity tools.
+
+3-eCommerce Platforms : Organizations are increasingly opting for SaaS eCommerce Platforms 
+to manage their websites,marketing, sales, and operations.
+
+4- resilience and business continuity: With SaaS, organizations are able to 
+    take advantage of the resilience and business continuity of the cloud provider
+-----------------------------------------------------
+
+SaaS integration platforms (or SIPs) : 
+
+Enterprises are now developing them  for building additional SaaS applications,
+ moving SaaS beyond standalone software functionality to a platform for mission-critical applications.
+
+
+SaaS concerns: 
+1- data ownership and data safety.
+2- Security is an important consideration when you’re allowing a third-party to maintain business-critical data.
+3- application access relies on a good internet connection—if you’re not connected, you cannot access the apps.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3 vid 5 : Public Cloud (5:33) 
+
+Deployment models : indicate where the infrastructure resides, 
+                             who owns and manages it
+                             how cloud resources and services are made available to users.
+
+
+public cloud model:
+ - users get access to servers, storage, network, security, and applications as services
+    delivered by cloud service providers over the internet.
+- Using web consoles and APIs,
+- users can provision the resources and services they need.
+- The cloud provider owns
+                     manages
+                     provisions
+                     maintains the infrastructure,
+                     renting it out to customers either for a subscription charge 
+                                                            OR usage-based fee.
+
+- Users don’t own the servers their applications run on
+                 or storage their data consumes,
+                 or manage the operations of the servers
+                 or even determine how the platforms are maintained.
+
+
+ - Public clouds offer significant cost savings as the provider bears all the capital, operational, and maintenance expenses
+             for the infrastructure and the facilities they are hosted in.
+
+- It makes scalability as easy as requesting more capacity.
+
+- public cloud providers : 
+ 1- Amazon Web Services,
+ 2- Microsoft Azure
+ 3- IBM Cloud
+ 4- Google Cloud Platform
+ 5- and Alibaba Cloud.
+While all providers include a common set of core services, 
+such as servers, storage, network, security, and databases
+ they also offer a wide spectrum of niche services with varied payment options.
+
+characteristics of a public cloud:
+
+A public cloud : 1- is a virtualized multi-tenant architecture enabling "tenants" or "users" to
+                    share computing resources, residing outside their firewalls.
+
+2-- The cloud providers pool of resources, including 
+                infrastructure, 
+                platforms, 
+                software
+    are NOT dedicated for use by a single tenant or organization.
+
+ 3- Resources are distributed on an as-needed basis offered through a variety of subscription and pay-as-you-go models.
+
+
+Public clouds benefits: 
+1-  fast on-demand resources are available : allowing applications to respond seamlessly to fluctuations in demand. لو احتاج يزود ريسورسس يزودخا بسهوله
+
+2- the most significant economies of scale: Considering the large number of users that share the centralized cloud resources on-demand,
+        he public cloud offers the most significant economies of scale.
+
+3-highly reliable : the sheer number of server and network resources available on the public cloud means that a
+                     public cloud is highly reliable—if one physical component fails, the service still runs unaffected
+                    on the remaining available components.
+
+public clouds concerns : 
+
+1- security and data sovereignty compliance.
+        Security issues such as data breaches, data loss, account hijacking, insufficient due
+        diligence, and system and application vulnerability seem to be some of the fears users continue
+        to have concerning security in the public cloud.
+        
+2- data being stored in different locations and accessed across "national borders", it has
+    also become increasingly critical for companies to be compliant with 
+    data sovereignty regulations
+    governing the storage,
+    transfer, and security of data.
+
+
+use cases for public cloud:
+1- teams can focus on building and testing applications :
+     Organizations are increasingly opting to access cloud-based applications and platforms so
+     their teams can focus on building and testing applications, and reducing time-to-market
+    for their products and services.
+
+2- Businesses with fluctuating: متقلب capacity and resourcing needs are opting for the public cloud.
+
+3- build secondary infrastructures: 
+    Organizations are using public cloud computing resources to build secondary infrastructures
+    for disaster recovery, data protection, and business continuity.
+
+4- greater accessibility : 
+    organizations are using cloud storage and data management services for greater
+                accessibility, easy distribution, and backing up their data.
+
+
+5-outsourcing the management :
+ IT departments are outsourcing the management of less critical and standardized business
+    platforms and applications to pubic cloud providers.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Module 3 Video 6 : Private Cloud (4:54)
+
+- The National Institute of Standards and Technology "NIST" : 
+    defines Private Cloud : 
+        as cloud infrastructure provisioned for "exclusive" use by a single organization comprising multiple consumers ده لو الاورجانيزاشن عندها اكتر من انتتي جواها ,
+        such as the business units within the organization.
+
+    - It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises
+
+- Private cloud platforms can be implemented internally or externally.
+
+Internally : 
+
+     When the platform is provisioned over an organization’s internal infrastructure, it runs on-premises
+    and is owned, managed, and operated by the "organization".
+
+externally:   
+    
+    When it is provisioned over a cloud provider’s infrastructure, it is owned, managed, and
+    operated by the service provider.
+
+ - vpc :
+     external private cloud offering that resides on a cloud service provider’s infrastructure is called a Virtual Private Cloud, or VPC.
+
+    -  is a public cloud offering that lets an organization establish its
+             own private and secure cloud-like computing environment in a "logically isolated part" of a shared public cloud.
+
+Using a VPC : 
+1-  organizations can leverage 
+                             1- dynamic scalability
+                             2- high availability,
+                             3- lower cost of ownership of a public cloud التي تتميز بيها الببليك كلاود 
+                             4- having the infrastructure and security tailored to the organization’s unique needs.
+
+2-  VPC are offered by most Public Cloud providers such as IBM and Amazon.
+
+-------------------------------------------------------------
+A private cloud : 
+
+     is a virtualized environment modeled to bring in the benefits of a public cloud platform 
+        without the perceived disadvantages of an open and shared public platform.
+
+ - Users of a private cloud, such as Developers and Business Units in an organization, still
+    get to leverage benefits such as e
+                 conomies of scale, 
+                 granular scale, 
+                 operational efficiencies,
+
+- and user self-service, while exercising 
+            full control over access, security, and compliances specific to their organization and business.
+
+- Private clouds provide you with The ability to 
+    leverage the value of cloud computing using systems 
+    that are directly managed or under perceived control of the organization’s internal IT.
+
+
+- The ability to better utilize internal computing resources,
+     such as the organization’s existing investments in hardware and software, thereby reducing costs.
+        - Better scalability through virtualization and “cloud bursting,” i.e., 
+        
+- leveraging public cloud instances for a period of time but returning to the private cloud when the surge is met.
+
+- Controlled access and greater security measures customized to specific organizational needs.
+
+- The ability to expand and provision things in a relatively short amount of time, providing greater agility.
+
+Organizations may choose to opt for private cloud because of various reasons—because
+their applications provide a unique competitive advantage,
+ 1- there are security and regulatory concerns, 
+ 2- because the data is highly sensitive and subject to strict industry or governmental regulations.
+
+
+use cases for a private cloud:
+
+1- modernize and unify their in-house: 
+A private cloud is an opportunity for organizations to modernize and unify their in-house and legacy applications.
+
+2- leverage the power of the compute resources on the cloud : 
+    Moving these applications from their dedicated hardware to the cloud also allows them to
+        leverage the power of the compute resources and multiple services available on the cloud.
+
+3- integrating WITH PUBLIC CLOUD : 
+    Using the private cloud, organizations are integrating data and application services
+    from their existing applications with public cloud services.
+
+4- Application portability : 
+is a key feature of cloud platforms. Using the private cloud gives organizations the flexibility to build applications anywhere,
+and move them anywhere, without having to compromise security and compliance in the process.
+--------------------------------------------------------------
+
+
+prevent an organization from moving to a public cloud
+1 - include security and regulatory concerns
+2-  and data sensitivity.
+
+ SO A private cloud offers these organizations the benefits of
+   on-demand enterprise resources while exercising full control over critical security and compliance issues from within
+the environment of their dedicated cloud.
+------------------------------------------------------------------------------------------------------------------------------------
+Module 3 Video 7 : Hybrid Cloud (5:59)
+
+Hybrid cloud :
+    is a computing environment that connects an organization’s on-premise private cloud and third-party public cloud 
+        into a single, flexible infrastructure for running the organization’s applications and workloads.
+         
+ - The mix of public and private cloud resources gives organizations the flexibility to choose
+        the optimal cloud for each application or workload. Workloads move freely between the two clouds as needs change.
+
+- Organizations can choose to run the
+                 sensitive, highly-regulated, and mission-critical applications
+                or workloads with 
+                reasonably constant performance and capacity requirements on "private cloud"infrastructure 
+                
+    while deploying the 
+           less-sensitive and more-dynamic workloads on the public cloud.
+
+With proper integration and orchestration between the public and private clouds, 
+you can leverage both clouds for the same workload.
+
+For example:
+ cloud bursting:  you can leverage additional public cloud capacity to accommodate a spike in demand for a private cloud application (also known as “cloud bursting”).
+
+The key tenets of a hybrid cloud are 
+    interoperability, التوافقيه
+     scalability, 
+     and portability.
+
+ - key tenets  مبادئ:     
+
+1-interoperable: which means that the public and private cloud services can understand each other’s APIs,
+         configuration,
+         data formats, 
+         and forms of authentication
+        and authorization.
+
+2- Scalable:  When there is a spike in demand, a workload running on the private cloud can leverage the additional public cloud capacity, making it scalable.
+
+3-portable: —since you’re no longer locked-in with a specific vendor, you can move applications and data not just between on-premise and cloud systems, but
+also between cloud service providers. Hybrid is about taking the best of both worlds.
+
+
+types of hybrid clouds: 
+
+1- hybrid monocloud : 
+    is a hybrid cloud with one cloud provider, 
+    while a hybrid multicloud is an open standards-based stack that can be deployed on any public cloud infrastructure.
+
+2 - hyprid multicloud: "flexibility"
+    The difference lies in the flexibility that the hybrid multicloud offers organizations to move workloads and environments from one vendor to another.
+
+
+ - There is also a variant of hybrid multicloud called the "composite multicloud",  
+ composite multicloud:  
+    which makes this flexibility even more granular محبب  as it distributes single applications across multiple providers,
+     allowing you to move application components across cloud services and vendors as needed.
+
+
+- Hybrid cloud offers significant benefits: in areas of
+    security and compliance,
+    scalability
+    resilience,
+    resource optimization 
+    cost-saving.
+
+
+A hybrid cloud 
+- lets organizations deploy highly regulated or sensitive workloads in a privatecloud 
+while running the less-sensitive workloads on a public cloud.
+
+- you can scale up quickly, inexpensively, and even automatically using the public cloud infrastructure,
+ all without impacting the other workloads running on your private cloud.
+
+- Because you’re not locked-in with a specific vendor
+    and also don’t have to make either-or decisions between the different cloud models,
+    you can make the most cost-efficient use of your infrastructure budget.
+    تستغل الفلوس احسن استغلال وتوزعها بين الببليك والبرايفت علي حسب اختياراتك
+
+- You can maintain workloads where they are most efficient, spin-up environments using pay-as-you-go in the public cloud, 
+    and rapidly adopt new tools as you need them.
+
+- A typical organization will have a range of applications and workloads spread across private, public, and traditional IT environments.
+This represents a range of opportunities for optimization via a hybrid cloud approach.
+
+hybrid cloud use cases:
+ 1- Software-as-a-Service integration:
+
+        Through hybrid integration, organizations are connecting Software-as-a-Service applications
+        available in the public cloud to their existing public cloud, private cloud, and traditional
+        IT applications to deliver new solutions.
+
+ 2-Data and AI integration:
+        Organizations today are creating richer and more personal experiences by combining new
+        data sources on the public cloud—such as 
+            weather, 
+            social, 
+            the Internet of Things, 
+            CRM,
+            ERP
+
+        with existing data and analytics,
+                              machine learning, 
+                            and AI capabilities.
+
+    Enhancing legacy apps.
+
+3-modernizing their core business systems :
+ An increasing number of organizations  are using public cloud services to upgrade the user experience of their on-premises applications
+     and deploy them globally to new devices, while incrementally modernizing their core business systems.
+4- VMware migration "lifting and shifting":
+
+    - More and more organizations are “lifting and shifting” their on-premises virtualized workloads 
+            to a public cloud without 
+            conversion or modification 
+        to reduce their on-premises data center footprint and position themselves to scale without added capital expense
+
+         بياخدوا الابلكيشنز اللي عندهم علي ال في ام ويطلعوها بابليك كلود زي ما هي عشان يقللوا الفلوس المدفوعه ف السيرفرات اللي عندهم
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4 - Components of Cloud Computing 
+Module 4 vid1 Overview of Cloud Infrastructure (6:30) 
+
+
+- The infrastructure layer is the foundation of the cloud: 
+
+    - This layer consists of physical resources that are housed in Regions, Zones and Data Centers.
+    - A Cloud provider’s IT environment is typically distributed across many Regions around the world.
+
+A cloud Region:
+     -is a geographic area or location where a Cloud provider’s infrastructure is clustered, and may have names like "NA South" or "US East".
+     -The cloud Regions are isolated from each other so that if one Region was impacted by a natural disaster like an Earthquake, the Cloud operations in other Regions would keep running.
+
+    Each Cloud Region can have multiple Zones (or Availability Zones or AZ for short), 
+
+Availability Zones : 
+    1- which are typically distinct Data Centers with their own power, cooling and networking resources.
+    2-These Zones can have names like "DAL-09" or "us-east-1".
+
+    3- The isolation of zones improves the cloud’s overall fault tolerance, decreases latency, and avoids creating a single shared point of failure.
+    4-The Availability Zones (and DataCenters within them) are connected to other AZs and regions,private datacenters and the Internet using very high bandwidth network connectivity.
+
+A cloud Data center :
+
+ - is a huge room or a warehouse containing cloud infrastructure.
+ - These data centers contain "pods" and "racks" or standardized containers of computing resources such as 
+    servers, storage,  networking equipment , virtually everything that a physical IT environment has.
+
+Computing Resources: 
+Cloud providers offer several compute options
+  - Virtual Servers,
+  - Bare Metal Servers, 
+  - “Serverless” computing resources.
+
+ - Most of the servers in a cloud datacenter run hypervisors to create virtual servers or virtual machines (also called VMs for short),
+     that are software-based computers, based on virtualization technologies.
+
+ - Other servers in the racks are bare metal servers that are physical servers that aren’t virtualized.
+
+ - Customers can provision VMs and Bare Metals servers as and when they need them and run their workloads on them.
+
+Cloud users can also run their workloads on serverless computing resources, 
+
+serverless computing resources : which are an abstraction layer on top of virtual machines
+
+-------------------------------------------------------------------
+Storage: 
+ -Information and data can consist of files, code, documents, images, videos, backups, snapshots, and databases and can be stored
+    in many different types of storage options on the Cloud.
+
+- Bare Metal Servers and Virtual Servers are provisioned with default storage in local drives. بيجي معاهم ديفولت ستورج بس بتروح الداتا اللي فيها لو انت سبت الريسورس 
+-Since these cloud servers can be provisioned and decommissioned by customers on demand and 
+    freed up for use by other users, any information stored in a local drive can be lost when you delete or decommission a cloud server.
+
+- However there are other storage options available on the cloud to persist data that you can choose depending on factors like 
+    - how important your data is?
+    - how quickly you want to be able to access it?
+    - how often you access it?
+    - how secure you need it to be ?
+
+
+- These additional storage options include 
+    Block storage
+    File storage
+    Object storage.
+
+-Block and file storage : 
+     are commonly used in traditional data centers
+                 struggle with scale
+                 performance and distributed characteristics of cloud
+
+- Object storage : is the most common mode of storage in the cloud as it’s both highly distributed and resilient.
+----------------------------------------------------
+Networking: 
+    Networking infrastructure in a cloud datacenter
+        - includes traditional networking hardware like routers and switches, but more importantly for users of the Cloud,
+        
+        -the Cloud providers have Software Defined Networking (or SDN) : 
+          - where certain networking resources are virtualized or made available programmatically, through APIs.
+          - This allows for easier network provisioning, configuration, and management in the cloud.
+
+The public network interfaces:  
+    as the name suggests, connect the servers to the public internet,
+
+the private : ones provide connectivity to your other cloud resources .
+
+------------------------------------
+
+setting up Security Groups and Access Control Lists (or ACLs). For further security and isolation of your resources in the cloud, 
+most Cloud providers
+
+provide 
+1- Virtual Local Area Networks (VLANs), 
+2- Virtual Private Clouds (VPCs)
+3- Virtual Private Networks (VPNs).
+
+Some of the traditional hardware appliances such as 
+
+firewalls,
+load balancers
+gateways
+traffic analyzers 
+
+can also be virtualized and made available as services in the cloud.
+
+Another networking capability provided by the Cloud Providers is 
+Content Delivery Networks or CDNs:
+that distribute content to multiple points throughout the world so users accessing the content can access it more quickly 
+by getting it from a point nearest to them.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Module 4 vid2 Virtualization and Virtual Machines Explained (5:21)
+
+- virtualization:
+    is the process of creating a software based, or virtual, version of something, 
+    whether that be 
+        compute, 
+        storage, 
+        networking, 
+        servers, 
+        applications. 
+    And what makes virtualization feasible, is something called the "hypervisor".
+    
+
+- hypervisor : is it's simply a piece of software that runs above the physical server, or host. 
+            And there are a couple different types of hypervisors out there. 
+            
+ There are two main types of hypervisors : 
+
+Type 1  "bare-metal hypervisors" :
+is a hypervisor that is installed directly on top of the physical server. They're also called bare-metal hypervisors.
+
+- most secure,
+- lower the latency, 
+- most in the market
+ex:  VMware, ESXi, or Microsoft Hyper-v, or even open-source KVM.
+
+Type 2 "Hosted Hypervisors":
+
+- there is a layer of host OS that sits between the physical server and the hypervisor.
+
+-less frequent. 
+-They're mostly used for end-user virtualization.
+-higher latency
+
+ex: Oracle, VirtualBox, or VMware Workstation. 
+
+ A VM  : 
+ 
+  - is simply a software based computer. They're run like a physical computer.
+  - They have an operating system and applications, and they're completely independent of one another.
+  - you can run multiple of them on a hypervisor.
+  - the hypervisor manages the resources that are allocated to these virtual environments from the physical server.
+  - Because they're independent you can 
+            - run different operating systems on different virtual machines.
+            - extremely portable. You can move a virtual machine from one hypervisor to another hypervisor 
+                on a completely different machine almost instantaneously, 
+                which gives you a lot of flexibility & portability 
+
+ Benefits of vertualization :
+  1- Cost savings.
+    When you think about this and the fact that you can run multiple virtual environments from one piece of infrastructure,
+    means that you can drastically بشكل جذري reduce your physical infrastructure footprint.
+     This is consolidation at its core. And the fact that you don't have 
+        - to maintain nearly as many servers,
+        - run as much electricity,
+        - save on maintenance costs, 
+
+    means that you save on your bottom line at the end of the day.
+    
+2- Would be agility and speed: 
+
+ spinning up بدأ  a virtual machine 
+       - is relatively easy and quick - 
+            a lot more simple than provisioning an entire new environment for your developers 
+        
+       - if they say they want to spin up a new
+        environment so that they can run a test scenario. Whatever it might be, virtualization makes that process a lot simpler and quicker. 
+        
+3- lowers your downtime:
+
+- Let's say that this host goes out unexpectedly. 
+    The fact that you can move virtual machines from one hypervisor to another,
+    on a different physical server, means that you have a great backup plan in place
+ 
+ -if this host goes down
+    you can simply move your VMs very quickly to another hypervisor on a
+    machine that is working. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4 Vid 3: Types of Virtual Machines (5:05)     
+
+Virtual Machines or VMs "Virtual Servers or Virtual Instances" :
+
+
+- When you create a virtual server in the cloud,
+    1- you specify the Region and Zone or Data Center you want the server to be provisioned in 
+    2- the Operating System you want on it.
+    3- You can choose between shared (that is, a multi-tenant) VMs
+                             dedicated (that is a single-tenant) VMs.
+
+    4- you can also choose between hourly or monthly billing
+    5- you can select storage and networking options for the virtual server.
+
+
+ types of VMs:
+
+ 1- Shared or Public Cloud VMs:
+         - are provider-managed
+         - multi-tenant deployments that can be provisioned on-demand with predefined sizes.
+                Being multi-tenant means that the underlying physical server is virtualized and is shared across other "tenants or users".
+        
+        - To satisfy different workloads
+             cloud providers offer predefined sizes and configurations ranging 
+                from a single virtual core and a small amount of RAM 
+                to multiple virtual cores and much larger amounts of RAM.
+
+    For example: there can be configurations for 
+                    Compute Intensive workloads,
+                    Memory intensive workloads,
+                    High Performance I/O.
+        Rather than pick from only pre-defined sizes, some providers also offer "custom configurations"
+                                                                         that allow users to define the number of cores and RAM and local storage characteristics.
+
+    - Public VMs are usually priced by the "hour" (or in some cases even seconds) and configurations start as low as pennies per hour.
+
+    -Some providers also let you get monthly VMs,
+             which can result in some cost savings if you know you will run the VM for at least a month,
+                 but if you decide to de-commision the VM in the middle of the month, you will still be charged for the full month.
+
+
+2- Transient or Spot VMs :
+        - take advantage of unused capacity in a cloud data center.
+        - Cloud providers make this unused capacity available to users
+             at a much lower cost than regular VMs of similar sizes.
+
+        - Although the Transient VMs are available at a huge discount,
+             the Cloud provider can choose to "de-provision" them at any time 
+                and reclaim the resources for provisioning regular, higher-priced, VMs.
+
+
+Because you run the risk of losing these VMs :
+
+    -these VMs are great for "non-production" workloads such 
+        as testing and developing applications.
+    - They are also useful for - running stateless workloads,
+                               - testing scalability, or running big data 
+                               -  high performance computing (HPC) workloads at a low cost.
+
+
+3- Reserved virtual server instances :
+
+    - allow you to reserve capacity and guarantee resources for future deployments.
+    - You reserve desired amount of virtual server capacity, 
+                provision instances from that capacity when you need them
+                 and choose a term,
+                     such as 1 year or 3 years, for your reserved capacity.
+
+    - You're guaranteed this capacity within the data center of your choice for the life of the contract term. هتفضل في نفس الداتا سنتر طول فتره العقد 
+    - By committing to a longer term, you can also lower your costs compared to hourly or monthly instances.
+
+    -This can be useful when you know you require at least a certain level of cloud capacity for a specific duration.
+            And if you exceed your reserved capacity, 
+            you can always choose to supplement your unplanned usage and capacity requirements with hourly or monthly VMs.
+            Note : however that not all predefined VMs families or configurations may be available as reserved.
+
+4- Dedicated hosts  : 
+
+    - offer single-tenant isolation.
+        -This means that only your VMs run on a given host so they can 
+            make exclusive use of full capacity and resources of the underlying hardware.
+            
+    - When provisioning a dedicated host you to specify the data center and POD in which you want your host placed. 
+            You then assign instances, or virtual machines, to a specific host.
+    - This allows for maximum control over workload placement.
+    - Dedicated hosts are typically used for meeting compliance and regulatory requirements or meet specific licensing terms.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+module 4 Video 4 : Bare Metal Servers (4:04)
+ 
+ - bare metal server : 
+ 
+    is a single-tenant, 
+        dedicated physical server.
+        In other words, it's dedicated to a single customer.
+
+    -"The cloud provider" actually takes the physical server and plugs it into a rack in a data center for customers.
+    -"The cloud provider" manages the server up to the operating system (OS) 
+        which means if anything goes wrong with the hardware or rack connection 
+        they will fix or replace it and then reboot the server.
+        
+    -The customer is responsible for administering 
+                                     managing everything else on the server. الحركه دي هتخلي في اوبراشين مانجمنت كتير علي الكستومر 
+
+---------------------------------------------
+
+-bare metal servers :
+     1- preconfigured by the cloud provider to meet workload packages
+
+or   2- they can be custom-configured as per customer specifications. 
+        This includes the processors, RAM, hard drives, specialized components, and the OS. 
+    
+-Customers - can also install their own OS 
+           - can install certain hypervisors that aren't available from the cloud provider
+           - create their own virtual machines and farms. 
+--------------------------------------------
+
+- bare metal servers  : you can also add "GPUs"
+         which are designed for accelerating scientific computation 
+                                             data analytics
+                                             rendering professional grade virtualized graphics.
+
+------------------------------------------
+
+
+-bare metal servers are "physical machines"
+    - they take longer to provision than virtual servers.
+    
+    - Pre-configured builds of bare metal can take 20 to 40 minutes to provision
+    - custom-builds can take around three or four hours,
+    
+     - these provisioning times can varyby Cloud provider.
+-------------------------------------------
+
+ -Bare Metal servers are "dedicated" for use by a single client at any given time,
+    - they tend  تتجه to be more expensive than similarly sized Virtual Machines.
+    - unlike virtual servers, not all cloud providers provide Bare Metal servers.
+
+- Since bare metal servers are fully customizable
+  -they can do what a customer wants in the most demanding environments.
+  
+
+- Bare metal servers are dedicated and intended for 
+    - long term,
+    - high performance use in
+    - highly secure and isolated environments.
+    - Clients have full access and control of bare metal servers because there’s "no hypervisor required".
+    
+     - This means that they can be scaled up and optimized for high availability as needed.
+ 
+ - As there is no sharing underlying server hardware with other customers,
+    Bare metal servers fulfil the demanding needs of 
+        -  high-performance computing ("HPC") and
+        -  data intense applications that require “minimal latency-related delays”. 
+        -  big data analytics applications
+        -  GPU-intensive solutions.
+
+- Some workload examples that bare metal servers satisfy are 
+ERP, CRM, AI, Deep Learning, and virtualization.
+
+If you use any applications that require high degrees of security control or apps that you’ve typically run in an on-premises environment,
+عايز حاجه تضمنلك السكيورتي كانك بتن علي سيرفراتك اللي ف الشركه يبقي هو ده الانسب ليك
+ then a bare metal server is a good alternative in the cloud.
+
+-When comparing bare metal servers to virtual servers, 
+some of the most important considerations
+
+Bare metal servers work best for: 
+    - CPU and I/O intensive workloads,
+    - excel with highest performance and security,
+    - satisfy strict compliance requirements,
+    - offer complete flexibility,
+    - control and transparency but come with "added management and operational overhead"
+
+virtual servers  : 
+    - are rapidly provisioned, 
+    - provide an elastic & scalable environment
+    - low cost to use,
+    - however since they share underlying hardware with other virtual servers, they can be limited in throughput and performance
+    أدائها مش حلو مقارنه بالبار ميتل سيرفر لانها بتبقي مشيره الريسورس مع فيرشوال سيرفرز تانيين
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
