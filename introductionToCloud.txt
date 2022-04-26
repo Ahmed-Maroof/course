@@ -1765,3 +1765,171 @@ ex:
     and its Direct Link solution that  : 
         - enables extending on-premises resources to the cloud as needed.
 --------------------------------------------------------------------------------------------------------------------------------------------------------
+Q1 : Subnets are the main area where security is implemented in the cloud. What is used to provide security at the virtual instance level in subnets?
+Security Groups or SGs
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 5 : Cloud Computing Storage and Content Delivery Networks 
+video 1 Video: Basics of Cloud Storage (5:43) 
+
+- Cloud storage : is where you save data and files in the cloud.
+
+- Cloud providers : host - secure - manage - maintain 
+                the cloud storage and associated infrastructure to ensure you have access to your data when you need it.
+
+- Cloud storage services : 
+             allow you to scale your capacity as you need so you only pay for what you provision, usually on a "per giga" basis.
+
+- The cost of storage will vary هتتنوع  by type but in general,
+     the faster the read / write speed of the storage
+     the higher the per gigabyte cost.
+
+Cloud storage : 
+ is available in four main types 
+    1- Direct Attached
+    2- File Storage
+    3- Block Storage
+    4- Object Storage.
+
+----------------------------------------    
+1- Direct Attached storage : 
+  - sometimes referred to as "Local Storage" - 
+  - storage which is presented directly to a cloud-based server and is effectively either within the host server chassis هيكل or within the same rack.
+  - This storage is fast and normally only used to store a server’s operating system
+    although it can have other use cases
+
+- The main two reasons why direct attached storage is not so great for other uses besides to store the operating system 
+    1 -  is that it’s typically "Ephemeral سريعه الزوال"  meaning that it only lasts as long at the compute resource it’s attached to 
+    2- it cannot be shared with other nodes and while you can use RAID techniques
+    3- it’s not as resilient to failure as other types of storage.
+
+
+2- File storage : 
+ - is typically presented to compute nodes as "NFS Storage"
+ - NFS stands for Network File System and means that the storage is connected to compute nodes over a standard ethernet network.
+
+ - NFS-mounted storage is common-place but it tends to be "slower" than either direct-attached storage or block storage 
+        because the data travels over an ethernet network.
+
+- It also tends to be lower cost than either direct attached or block storage.أبطأ وارخص من اللي الاتنين لانها بتمشي ف النتورك وبتاخد وقت 
+
+- One advantage of File Storage is that it can be mounted or used on multiple servers at once. الميزه اللي فيها ان في اكتر من سيرفر ممكن ياكسسوها في نفس الوقت
+- File-based storage is a simple, straightforward approach to data storage and works well for organizing data in a hierarchical folder structure,
+     that desktop users are familiar with.
+
+
+3- Block storage :
+- is presented to compute nodes using high-speed "fibre connections"
+- which means that read and write speeds are typically much faster and reliable than with file storage 
+    اكثر سرعه و اعتماديه عن الفايل ستوراج لانها بتستخدم الفايبر ف الكونكشن بينها  
+- making block storage suitable for use with "databases" and other applications where disk speed is important.
+- You typically provision block storage in "Volumes"
+     - which can then be mounted onto a compute node
+     - which it then effectively sees as another hard drive.
+
+- Volumes can normally only be mounted onto one compute node at a time. بشتغل مع نوود واحده بس ف المره و مينفعش تتوصل باكتر من نوود علي عكس الفايل ستوراج 
+
+- IOPS stands for "Input/Output Operations Per Second" and relates to the speed of the storage or to put it another way
+     how quickly data can be read from or written to the storage.
+
+- If the storage is set to "persist" then it will "not" be deleted along with the compute node 
+        - meaning that it and its data are preserved and available to mount onto another compute node
+        - though you will continue to pay for the storage.
+        معناها ان لو في نود سابت الاستوراج دي هتفضل انت تدفع عليها عادي وكمان اي نوود تانيه تقدر تاخدها بالداتا اللي عليها 
+
+- in some cases, set the storage so that it is "automatically deleted" with the compute node that it is mounted onto 
+        - in this case, as we know, it becomes "Ephemeral Storage".
+        - you will also stop paying for the storage but you will lose any data unless it is backed up somewhere.
+
+
+- There are several ways to backup data in the cloud but one way to back up both File and Block storage is to take a "Snapshot".
+    As the term implies, this is a point in time image of the storage.
+- Snapshots :
+    - are usually fast to create
+        (they don’t actually write any data, or rather they create metadata)
+    - don’t require downtime and subsequent snapshots record only changes to the data.
+    - They are great for returning storage to the way it was at a particular snapshot, though note
+    - they cannot be used to recover individual files.
+    
+4- Object storage:
+
+- This is a different type of storage in so much as it’s not attached to a compute node, rather it is accessed via an API.
+ دي مش مربوطه بنوود دي عايمه كده واللي عايزها بيكلمها ب ابي
+
+- Of all the storage types, Object Storage is by far the "cheapest" and also the "slowest" in terms of read and write speeds
+- but it is infinite in size to the end user. الحجم مفتوح معاك حط زي ما انت عايز وهتحاسب علي اللي بتستخدمه بس
+
+- Unlike File and Block storage where you provision a certain storage capacity and it fills up over time
+     with Object Storage you can keep adding files to it and it never fills up, "you just pay for what you use".
+
+- This makes Object Storage a fantastic repository for all sorts of "unstructured data types",
+large and small, including documents   
+                             video
+                             logs
+                            backups
+                            data from IoT
+                            application binaries
+                            virtual machine images.
+                            
+----------------------------------------------------------------------------------------------------------------------------------
+
+Module 5 Video 2 : File Storage (4:14)
+
+- File Storage : 
+
+- Like direct attached storage, file storage "must" be attached to a compute node before it can be accessed and have data stored on it.
+- File Storage can be "less expensive",
+                     more resilient to failure
+                     lesser disk management and maintenance for you as the user to do 
+                      as compared to direct attached storage.
+
+- You can also provision much larger amounts of File Storage and present it as a disk to a server. ممكن تعتبرها ديسك هيتحط علي السيرفر 
+
+- File storage is mounted from remote storage appliances.
+ -  the physical disks are contained in a separate, specialised piece of hardware and they are then connected to the compute node
+     via the underlying infrastructure in the datacentre.
+- These storage appliances "are not only" extremely resilient to failure, مش بتقع بسهوله وكمان سكيور جدا
+  the data is also far more secure in them 
+    as these storage appliances offer services such as 
+    "encryption in transit and encryption at rest".
+    
+- These appliances are all managed by the service provider.
+File Storage is mounted to compute nodes via an ethernet network – the same kind of network
+that you might receive email or browse the internet over, although this ethernet network
+is normally dedicated to the task.
+This means it can sometimes be referred to as ‘Network Attached Storage’, ‘Network
+File Storage’ or simply ‘NFS.
+One of the issues with ethernet networks is that their speed can vary – the more loaded
+an ethernet network is, the more likely it becomes that it’s speed or bandwidth will
+be affected.
+Of course, Cloud Providers build their storage networks to handle very high volumes of traffic
+but even so, consistent speed cannot be guaranteed.
+Therefore, File storage tends to be used for workloads where consistently high network
+speeds are not a requirement.
+In terms of workloads, File Storage can typically be mounted onto more than one compute node
+at a time, where the mounted disk or volume looks just like another drive on the compute
+node.
+The ability for File Storage to be mounted to multiple compute nodes at a time make it
+an ideal solution where some sort of common storage is required – for example, a departmental
+file share, a ‘landing zone’ for incoming files that need to be processed by an application,
+or a repository of files that a web service might access.
+In these applications, the potential variance in the speed of the connecting network is
+not really an issue.
+Of course, where cost is an issue, you can use file storage for other applications such
+as databases, but the trade-off is speed.
+When you provision file storage, one consideration you need to take into account is the IOPS
+capacity of the storage.
+IOPS stands for Input/Output Operations Per Second and refers to the speed at which the
+disks can write and read data (note this is not the speed of the network between the storage
+and the compute node).
+The higher the IOPS value, the faster the speed of the underlying disk.
+A higher IOPS will also normally cost more.
+Understanding IOPS is important because if the IOPS value is too low for your application,
+the storage can become a bottleneck and cause your application to run slowly.
+Alternatively, if the IOPS is too high, you will probably be paying more that you need
+to for your storage.
+For example, a file share may be mounted on 30 different compute nodes and an application
+writes and requests data to and from that share 60 times per minute.
+You can average that out to 1 operation per second.
+With this simple example, you can see that each application has different IOPS requirements.
+In the next video, we’re going to talk more about Block Storage, how it compares with
+File Storage, and when you would typically use one over the other.
